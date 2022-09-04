@@ -1,0 +1,14 @@
+{
+  "name": "lt-template",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open --port=3030",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.35.6",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*"
+  }
+}
