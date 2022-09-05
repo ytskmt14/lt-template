@@ -1,16 +1,18 @@
 <template>
-  <span class="text-5xl">{{ headerText }}</span>
+<p class="leading-loose text-xl">
+  {{ content }}
+</p>
 </template>
 
 <script setup lang="ts">
 import { ref } from 'vue';
 
 const props = defineProps({
-  text: {
+  text : {
     type: String,
     require: true
   }
 })
 
-const headerText = ref(props.text)
+const content = ref(props.text)
 </script>

@@ -1,6 +1,6 @@
 <template>
   <ul>
-    <li v-for="(listItem, index) in listItems" :key="index">
+    <li class="leading-loose text-xl" v-for="(listItem, index) in listItems" :key="index">
       {{ listItem }}
     </li>
   </ul>
